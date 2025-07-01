@@ -146,7 +146,7 @@ namespace WebAplplicasionUTNSeguro.Controllers
         // POST: Mascotas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        
+        //Hola
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var mascota = await _context.Mascotas.FindAsync(id);
